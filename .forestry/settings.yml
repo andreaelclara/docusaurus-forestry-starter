@@ -5,17 +5,32 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: docs
-  label: Docs
+  path: ''
+  label: Swarm Ecosystem
+  create: all
+  match: "**/*"
+- type: directory
+  path: Values
+  label: Values
+  create: all
+  match: "**/*"
+  templates:
+  - blog-post
+- type: directory
+  path: About
+  label: About
   create: documents
   match: "*.md"
   templates:
   - page
+  - page
 - type: directory
-  path: blog
-  label: Blog
+  path: Membership
+  label: Membership
   create: documents
   match: "*.md"
+  templates:
+  - page
 - type: document
   path: sidebars.json
   label: Sidebar
