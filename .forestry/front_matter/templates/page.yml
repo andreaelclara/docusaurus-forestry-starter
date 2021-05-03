@@ -13,3 +13,4 @@ fields:
   label: sidebar_label
 pages:
 - About/about.md
+- About/what-is-web3.0.md
