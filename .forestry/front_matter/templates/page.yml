@@ -13,7 +13,12 @@ fields:
   label: sidebar_label
 pages:
 - About/about.md
+- About/about.md
+- About/our-goal.md
 - About/our-goal.md
 - About/sdgs.md
+- About/sdgs.md
 - About/what-is-web3.0.md
+- About/what-is-web3.0.md
+- Membership/why-sea.md
 - Membership/why-sea.md
