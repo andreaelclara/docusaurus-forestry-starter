@@ -1,6 +1,14 @@
 {
   "someSidebar": {
-    "Docusaurus": ["doc1", "doc2", "doc3"],
-    "Features": ["mdx"]
+    "Docusaurus": [
+      "About_1",
+      "uhkj",
+      "doc1",
+      "doc2",
+      "doc3"
+    ],
+    "Features": [
+      "mdx"
+    ]
   }
 }
